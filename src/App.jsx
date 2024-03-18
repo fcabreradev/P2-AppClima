@@ -91,10 +91,16 @@ export default function App() {
   }
 
   return(
+    <Box
+    display="flex"
+    justifyContent="center"
+    alignItems="center"
+    minHeight="100vh">
+
     <Container 
       maxWidth="xs"
       sx={{mt:3 , mb:3}}>
-
+      
       <Typography
         variant="h4"
         component="h1"
@@ -126,5 +132,6 @@ export default function App() {
         </Box>
       )}
     </Container>
+    </Box>
   );
 }
