@@ -15,7 +15,7 @@ export default function App() {
 
   const API_WEATHER = `https://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_API_KEY}&lang=es&q=`
   
-  const API_WEATHER_PRONOSTIC = `http://api.weatherapi.com/v1/forecast.json?key=${import.meta.env.VITE_API_KEY}&lang=es&q=${city}&days=3&aqi=no&alerts=no`
+  const API_WEATHER_PRONOSTIC = `https://api.weatherapi.com/v1/forecast.json?key=${import.meta.env.VITE_API_KEY}&lang=es&q=${city}&days=3&aqi=no&alerts=no`
 
   const getDayOfWeek = (unixTimestamp) => {
     const daysOfWeek = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
