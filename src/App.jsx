@@ -106,7 +106,7 @@ export default function App() {
         component="h1"
         align="center"
         sx={{mb:4}}
-        >Clima App
+        >Clima
       </Typography>
 
       <InputForm
